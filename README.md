@@ -1,10 +1,11 @@
 # HiveMQ TLS Client for Android
 
-A secure MQTT client application for Android that demonstrates TLS/SSL connectivity with client certificate authentication using the HiveMQ MQTT client library. This example application connects to any compatible MQTT broker with TLS support and displays messages from subscribed topics.
+A secure MQTT client application for Android that demonstrates TLS/SSL connectivity with client certificate authentication using the HiveMQ MQTT client library version 1.3.5. This example application connects to any compatible MQTT broker with TLS support and displays messages from subscribed topics.
 
 ## Features
 
 - Secure MQTT connection using TLS with client certificate authentication
+- Built with HiveMQ MQTT Client library version 1.3.5
 - Real-time display of crash alerts in a scrollable list
 - Connection status monitoring with connect/disconnect functionality
 - Support for MQTT Quality of Service (QoS) level 1 (at least once)
@@ -63,6 +64,7 @@ Before using this project, you must make several key changes to adapt it to your
 
 ### MQTT Configuration
 
+- MQTT Client: HiveMQ MQTT Client library v1.3.5
 - MQTT Broker: Any broker supporting MQTT with TLS on port 8883
 - Topic: `iot/crashalerts` (can be customized)
 - QoS: Level 1 (at least once delivery)
