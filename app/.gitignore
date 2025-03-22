@@ -1,0 +1,17 @@
+/build
+/release
+/debug
+*.iml
+
+# Certificate and key files (SENSITIVE!)
+/src/main/assets/certs/
+*.crt
+*.key
+*.p12
+*.jks
+*.keystore
+*.der
+*.pem
+*.srl
+*.csr
+*.cnf
